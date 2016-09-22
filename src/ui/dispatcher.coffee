@@ -362,6 +362,9 @@ handle 'showconvtime', (doshow) ->
 handle 'showconvlast', (doshow) ->
     viewstate.setShowConvLast doshow
 
+handle 'showsnippets', (doshow) ->
+    viewstate.setShowSnippets doshow
+
 handle 'convertemoji', (doshow) ->
     viewstate.setConvertEmoji doshow
 
